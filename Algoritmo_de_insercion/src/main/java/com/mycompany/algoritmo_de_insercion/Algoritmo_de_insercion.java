@@ -40,7 +40,7 @@ public class Algoritmo_de_insercion {
         for (int i = 0; i < nElementos; i++) {
             System.out.print(arr[i]+" - ");
         }
-        System.out.print("Orden descendente: ");
+        System.out.print("\nOrden descendente: ");
         for (int i =(nElementos-1); i>=0;i--) {
             System.out.print(arr[i]+" - ");
         }
