@@ -48,10 +48,12 @@ public class Algoritmo_de_insercion {
         for (int i = 0; i < nElementos; i++) {
             System.out.print(arreglo[i]+" - ");
         }
+        //agregamos un bucle for que devuelva los numeros anteriormente guardados en i ademas de ordenarlos de forma ascendente
         System.out.print("\nOrden descendente: ");
         for (int i =(nElementos-1); i>=0;i--) {
             System.out.print(arreglo[i]+" - ");
         }
+        //agregamos otro bucle for para que devuelva los numeros anteriomente ordenados de manera descendente
         System.out.println("");
     }
 }
